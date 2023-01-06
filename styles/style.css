@@ -49,7 +49,6 @@ h1 {
   font-size: 40px;
   margin-bottom: 20px;
   margin-top: 100px;
-  
   text-align: center;
 }
 .title_description {
@@ -60,18 +59,19 @@ h1 {
   margin-bottom: 50px;
 }
 
-.donation_amount_section{
+.donation_amount_section {
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-bottom: 80px;
 }
 
-.donation_amount{
+.donation_amount {
   width: 120px;
   height: 90px;
-  background-color: #c9c4c4;
+  background-color: #ebe8e8;
   font-size: 25px;
+  color: #757575;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -81,24 +81,63 @@ h1 {
   overflow: hidden;
 }
 
-.donation_amount:hover{
+.donation_amount:hover {
   border: 2px solid red;
   background-color: #ffbaba;
   color: red;
 }
 
-.other_amount{
+.other_amount {
   text-align: center;
   color: #c9c4c4;
   margin-bottom: 10px;
   font-size: 18px;
 }
 
-.border{
-  border-bottom: 2px solid #c9c4c4 ;
+.border {
+  border-bottom: 2px solid #c9c4c4;
   width: 800px;
   margin: 0 auto;
 }
-.donate_btn{
+.donate_btn {
   text-align: center;
+}
+
+/* Donate plan Section style */
+.Donate_plan_Section{
+  margin-bottom: 70px;
+}
+.Donate_plan {
+  display: flex;
+  gap: 20px;
+  padding: 20px 150px;
+  margin-bottom: 80px;
+}
+
+.donation_title {
+  margin: 20px 0;
+}
+.food {
+  background-color: rgb(235, 244, 246);
+  padding: 50px 20px;
+}
+.shelter {
+  background-color: rgb(255, 234, 234);
+  padding: 50px 20px;
+}
+.education {
+  background-color: rgb(255 235 199);
+  padding: 50px 20px;
+}
+
+/* Their lives Section style */
+.their_lives_section{
+  width: 1200px;
+  display: flex;
+  gap: 120px;
+  padding: 20px 150px;
+  margin-bottom: 80px;
+}
+.lives_img{
+  width: 400px;
 }
