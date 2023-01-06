@@ -18,7 +18,7 @@
 .banner_content {
   padding-top: 150px;
 }
-.title_description {
+.banner_description {
   color: #fff;
   font-size: 17px;
   font-weight: 400;
@@ -32,6 +32,7 @@
   border-radius: 5px;
   padding: 15px 20px;
   margin-top: 40px;
+  text-align: center;
 }
 h1 {
   color: #fff;
@@ -42,9 +43,62 @@ h1 {
 
 /* Donate Today section */
 
-.primary-title{
-  color: #fff;
+.primary-title {
+  color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 40px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  
+  text-align: center;
+}
+.title_description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.donation_amount_section{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.donation_amount{
+  width: 120px;
+  height: 90px;
+  background-color: #c9c4c4;
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.donation_amount:hover{
+  border: 2px solid red;
+  background-color: #ffbaba;
+  color: red;
+}
+
+.other_amount{
+  text-align: center;
+  color: #c9c4c4;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.border{
+  border-bottom: 2px solid #c9c4c4 ;
+  width: 800px;
+  margin: 0 auto;
+}
+.donate_btn{
+  text-align: center;
 }
