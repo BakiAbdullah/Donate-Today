@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Banner Section Style */
 .banner {
   background-image: url(../images/donation5.jpg);
   background-repeat: no-repeat;
@@ -17,7 +18,7 @@
 .banner_content {
   padding-top: 150px;
 }
-.content_description {
+.title_description {
   color: #fff;
   font-size: 17px;
   font-weight: 400;
@@ -36,5 +37,14 @@ h1 {
   color: #fff;
   font-weight: 700;
   font-size: 60px;
+  margin-bottom: 35px;
+}
+
+/* Donate Today section */
+
+.primary-title{
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
   margin-bottom: 35px;
 }
