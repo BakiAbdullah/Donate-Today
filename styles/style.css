@@ -104,7 +104,7 @@ h1 {
 }
 
 /* Donate plan Section style */
-.Donate_plan_Section{
+.Donate_plan_Section {
   margin-bottom: 70px;
 }
 .Donate_plan {
@@ -131,13 +131,17 @@ h1 {
 }
 
 /* Their lives Section style */
-.their_lives_section{
-  width: 1200px;
+.their_lives_section {
   display: flex;
-  gap: 120px;
-  padding: 20px 150px;
+  gap: 130px;
+  padding: 20px 250px;
   margin-bottom: 80px;
+  justify-content: space-between;
 }
-.lives_img{
-  width: 400px;
+.lives_img img {
+  width: 100%;
+}
+.their_lives p,
+.their_lives h2 {
+  text-align: left;
 }
