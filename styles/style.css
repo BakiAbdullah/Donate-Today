@@ -136,10 +136,11 @@ h1 {
   gap: 130px;
   padding: 20px 250px;
   margin-bottom: 80px;
+  align-items: center;
   justify-content: space-between;
 }
 .lives_img img {
-  width: 100%;
+  width: 500px;
 }
 .their_lives p,
 .their_lives h2 {
