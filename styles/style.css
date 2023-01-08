@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 * {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -13,7 +14,7 @@
   background-size: cover;
   background-position: center;
   height: 80vh;
-  background-blend-mode: unset;
+  background-blend-mode: overlay;
   text-align: center;
 }
 .banner_content {
@@ -147,3 +148,65 @@ h1 {
 .their_lives h2 {
   text-align: left;
 }
+/* Their lives Section style ends */
+
+/* Subscription Section */
+.updates{
+  margin-bottom: 100px;
+}
+.subcription_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  height: 250px;
+  background-color: rgb(255, 234, 234);
+  margin: 0 auto;
+}
+
+.subcription_section input {
+  border: none;
+  width: 295px;
+  height: 57px;
+  background-color: #c9c4c4;
+  border-radius: 5px 0 0 5px;
+}
+::placeholder {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px;
+  margin-top: 80px;
+}
+input:focus {
+  outline: none;
+}
+.subcription_section .btn-primary {
+  border-radius: 0 5px 5px 0;
+  margin-bottom: 40px;
+}
+
+/* Subscription Section ends */
+
+/* Footer Section */
+
+.footer {
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  height: 130px;
+  gap: 20px;
+  padding: 50px 0 0 0;
+}
+
+.footer h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 39px;
+  color: rgb(236, 74, 74);
+  font-weight: 700;
+}
+
+/* Footer Section ends */
+
